@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon-website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h6 class="logo"><b>SALON</b></h6>
+        <nav class="navigation">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">SERVICES</a>
+            <a href="#">GALLERY</a>
+            <a href="#book"><button class="btn">RESERVATION</button></a>
+        </nav>
+    </header>
+
+
+    <div class="main">
+        <h1>RESERVE AN APPOINTMENT</h1>
+        <form action="/action.html" class="resform" id="resform">
+            <p class="name">Full Name*</p>
+            <input class="uname" type="text" name="uname" required>
+            <p class="name">PhoneNumber*</p>
+            <input class="no" type="number" name="no" required>
+            <p class="name">Date*</p>
+            <input type="date" class="resdate" name="resdate" required>
+            <p class="name">RequiredServices*</p><br>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="haircolor" id="hrclr">
+                Haircolor 
+            </label>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="haircut" id="hrct">
+                Haircut 
+            </label>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="hairspa" id="hrspa">
+                Hairspa 
+            </label>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="facial" id="fcl">
+                Facial 
+            </label><br>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="pedicure" id="pdcr">
+                Pedicure 
+            </label>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="manicure" id="mncr">
+                Manicure 
+            </label>
+            <label class="chekbox" style=" color:rgb(247, 243, 243)">
+                <input type="checkbox" class="reqserv" value="keratin treatment" id="krtmnt">
+                Keratin Treatment 
+            </label>
+
+            <button class="subtn" type="submit">BOOK NOW</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

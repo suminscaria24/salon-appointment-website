@@ -1,0 +1,205 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        body {
+            background-image: url("https://media.timeout.com/images/105734235/750/562/image.jpg");
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            padding: 0px;
+            background-color: rgb(89, 130, 115);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            opacity: 0.75;
+        }
+        
+        .navigation a {
+            position: relative;
+            font-size: 20px;
+            color: rgb(232, 235, 235);
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+        
+        .logo {
+            float: left;
+            font-size: 30px;
+            font-weight: bold;
+            user-select: none;
+            color: rgb(240, 243, 243);
+        }
+        
+        .navigation a .btn {
+            border-radius: 16px;
+            width: 160px;
+            height: 40px;
+            background-color: rgb(89, 130, 115);
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            color: rgb(235, 241, 241);
+            border-color: rgb(9, 62, 62);
+            font-size: 20px;
+        }
+        
+        .navigation a .btn:hover {
+            background-color: rgb(66, 108, 95)
+        }
+        
+        .main h1 {
+            margin-top: 0;
+            width: 800px;
+            background-color: rgb(89, 130, 115);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+        
+        .main {
+            background-color: rgb(89, 130, 115);
+            opacity: 0.75;
+            width: 800px;
+            margin: auto;
+            height: 80vh;
+        }
+        
+        form {
+            padding: 10px;
+        }
+        /* #name {
+            width: 100%;
+            height: 100px;
+        }
+         */
+        
+        .name {
+            margin-left: 30px;
+            margin-top: 30px;
+            width: 100px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            font-display: initial;
+        }
+        
+        .uname {
+            position: relative;
+            left: 250px;
+            top: -33px;
+            line-height: 40px;
+            width: 260px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .no {
+            position: relative;
+            left: 250px;
+            top: -37px;
+            line-height: 40px;
+            width: 260px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .resdate {
+            position: relative;
+            left: 250px;
+            top: -42px;
+            line-height: 40px;
+            width: 260px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .checkbox {
+            position: relative;
+            left: 500px;
+            top: -48px;
+            /* line-height: 40px;
+            width: 532px;
+            height: 40px; */
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #f6efef;
+            outline: none;
+            overflow: hidden;
+        }
+        
+        .chekbox checkbox {
+            font-size: 40px;
+            color: #e3e6e7;
+            justify-content: center;
+            /* margin-left: 500px; */
+        }
+        
+        .checkbox .reqserv {
+            width: 40px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            outline: none;
+            text-align: center;
+            justify-content: center;
+            color: #FFFFFF;
+            /* margin-left: 500px; */
+        }
+        
+        .checkbox .reqserv #hrclr,
+        #hrct,
+        #hrspa,
+        #fcl,
+        #pdcr,
+        #mncr,
+        #krtmnt {
+            margin-left: 100px;
+            padding: 10px;
+            justify-content: center;
+            left: 250px;
+        }
+        
+        .subtn {
+            background-color: rgb(89, 130, 115);
+            display: block;
+            margin: 20px 0px 0px 20px;
+            text-align: center;
+            border-radius: 12px;
+            border: 2px solid #f2f7f9;
+            padding: 14px 110px;
+            outline: none;
+            color: #FFFFFF;
+            margin-left: 220px;
+        }
+        
+        .subtn:hover {
+            background-color: rgb(66, 108, 95)
+        }
